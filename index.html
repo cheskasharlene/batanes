@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Breathtaking Batanes</title>
+    <meta name="description" content="Calm, elegant, nature-inspired single-page showcase of Batanes.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-transparent">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-brown d-flex align-items-center gap-2" href="#hero">
+          <span class="brand-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 5c-5.5 0-10 4.5-10 10 0 1.8.5 3.5 1.4 5C9 18 7 15 7 11 7 7 11 3 15 3c2.1 0 3.9.8 4 2z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span>Breathtaking Batanes</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Open menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto" role="menubar" aria-label="Primary">
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#hero">Home</a></li>
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#about">About</a></li>
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#attractions">Attractions</a></li>
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#culture">Culture</a></li>
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#food">Food</a></li>
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#tips">Travel</a></li>
+            <li class="nav-item" role="none"><a class="nav-link" role="menuitem" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="hero" class="hero d-flex align-items-center text-center text-white">
+      <div class="hero-decor">
+        <div class="cloud cloud-1" aria-hidden="true"></div>
+        <div class="cloud cloud-2" aria-hidden="true"></div>
+        <div class="birds" aria-hidden="true">
+          <span class="bird"></span>
+          <span class="bird bird-2"></span>
+          <span class="bird bird-3"></span>
+        </div>
+      </div>
+      <div class="container position-relative">
+        <h1 class="display-3 hero-title mb-3 fade-up">BREATHTAKING BATANES</h1>
+        <p class="lead mb-4 fade-up delay-1">Where the wind sings, and the sea whispers peace.</p>
+        <a href="#about" class="btn btn-gradient btn-lg px-4 rounded-pill fade-up delay-2">Explore Now</a>
+      </div>
+      <button class="scroll-hint" aria-label="Scroll to About" onclick="document.querySelector('#about').scrollIntoView({behavior:'smooth'})">
+        <span class="hint-arrow" aria-hidden="true"></span>
+      </button>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="py-5 bg-cream">
+      <div class="container">
+        <h2 class="section-title text-brown mb-4 text-center">Discover Paradise</h2>
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <div class="collage">
+              <div class="collage-item large shadow-sm rounded-4 overflow-hidden">
+                <img src="img/batanes%201.jpg" alt="Batanes cliffs and coastline" class="w-100 h-100">
+              </div>
+              <div class="collage-item small shadow-sm rounded-4 overflow-hidden">
+                <img src="img/stone 4.jpg" alt="Ivatan stone house" class="w-100 h-100">
+              </div>
+              <div class="collage-item medium shadow-sm rounded-4 overflow-hidden">
+                <img src="img/batanes 5.jpg" alt="Rolling hills near lighthouse" class="w-100 h-100">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-copy">
+              <p class="mb-3">Batanes rests at the northern edge of the Philippines, a tranquil province shaped by the Pacific winds and the Bashi Channel. Its landscapes flow from emerald hills to dramatic cliffs, where the sea meets sky in timeless harmony.</p>
+              <p class="mb-3">The province is composed of three main islands—Batan, Sabtang, and Itbayat—each offering quiet villages, stone houses, and roads that hug the coastline. Life moves gently here; every path invites you to wander and breathe.</p>
+              <p class="mb-4">From lighthouse horizons to sheltered coves, Batanes keeps beauty simple and sincere—crafted by nature, preserved by tradition.</p>
+              <blockquote class="quote-box fst-italic p-4 rounded-4 shadow-sm bg-white mb-4">“In Batanes, even silence speaks beauty.”</blockquote>
+
+              <div class="row text-center g-3 counters" aria-live="polite">
+                <div class="col-4">
+                  <div class="counter-value fade-up" data-target="10" data-suffix="+">0</div>
+                  <div class="small text-brown">Scenic Spots</div>
+                </div>
+                <div class="col-4">
+                  <div class="counter-value fade-up delay-1" data-target="3">0</div>
+                  <div class="small text-brown">Main Islands</div>
+                </div>
+                <div class="col-4">
+                  <div class="counter-value fade-up delay-2" data-target="100" data-suffix="%">0</div>
+                  <div class="small text-brown">Serenity</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Attractions -->
+    <section id="attractions" class="py-5 bg-attractions">
+      <div class="container">
+        <h2 class="section-title text-center text-brown mb-4">Heaven on Every Hill</h2>
+        <div class="row g-4 attractions-grid">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card attraction-card h-100 border-0 rounded-4 overflow-hidden">
+              <div class="attraction-media">
+                <img src="img/batan.jpg" alt="Basco Lighthouse at sunrise" class="w-100 h-100">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title d-flex align-items-center gap-2">
+                  <span class="icon" aria-hidden="true">📍</span> Basco Lighthouse
+                </h5>
+                <p class="card-text">Sunrise views and cliffside walks.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card attraction-card h-100 border-0 rounded-4 overflow-hidden">
+              <div class="attraction-media">
+                <img src="img/vayang.jpg" alt="Vayang Rolling Hills" class="w-100 h-100">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title d-flex align-items-center gap-2">
+                  <span class="icon" aria-hidden="true">🌿</span> Vayang Rolling Hills
+                </h5>
+                <p class="card-text">Soft grass waves like a sea of green.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card attraction-card h-100 border-0 rounded-4 overflow-hidden">
+              <div class="attraction-media">
+                <img src="img/marlboro.jpg" alt="Marlboro Country" class="w-100 h-100">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title d-flex align-items-center gap-2">
+                  <span class="icon" aria-hidden="true">🏞️</span> Marlboro Country
+                </h5>
+                <p class="card-text">Pastoral vistas and cow-dotted fields.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card attraction-card h-100 border-0 rounded-4 overflow-hidden">
+              <div class="attraction-media">
+                <img src="img/chawa.jpg" alt="Chawa View Deck" class="w-100 h-100">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title d-flex align-items-center gap-2">
+                  <span class="icon" aria-hidden="true">🌄</span> Chawa View Deck
+                </h5>
+                <p class="card-text">360° hilltop panoramas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card attraction-card h-100 border-0 rounded-4 overflow-hidden">
+              <div class="attraction-media">
+                <img src="img/sabtang.jpg" alt="Sabtang Stone Houses" class="w-100 h-100">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title d-flex align-items-center gap-2">
+                  <span class="icon" aria-hidden="true">🏠</span> Sabtang Stone Houses
+                </h5>
+                <p class="card-text">Heritage homes built for the wind.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card attraction-card h-100 border-0 rounded-4 overflow-hidden">
+              <div class="attraction-media">
+                <img src="img/itbayat.jpg" alt="Itbayat Island cliffs" class="w-100 h-100">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title d-flex align-items-center gap-2">
+                  <span class="icon" aria-hidden="true">🗺️</span> Itbayat Island
+                </h5>
+                <p class="card-text">Rugged cliffs & untouched shores.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    
+
+    <!-- Culture & People -->
+    <section id="culture" class="py-5 bg-weave">
+      <div class="container">
+        <h2 class="section-title text-center text-brown mb-4">The Ivatan Spirit</h2>
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6">
+            <div id="ivatanCarousel" class="carousel slide rounded-4 overflow-hidden shadow-sm" data-bs-ride="carousel" aria-label="Ivatan life images">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/sabtang.jpg" class="d-block w-100" alt="Ivatan stone houses in Sabtang">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/culture.jpg" class="d-block w-100" alt="Close-up of an Ivatan house">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/batanes 1.jpg" class="d-block w-100" alt="Coastal life near Basco">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/batanes 2.jpg" class="d-block w-100" alt="Rolling hills and daily life">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/culture 1.jpg" class="d-block w-100" alt="Boats and sea near Chawa">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#ivatanCarousel" data-bs-slide="prev" aria-label="Previous image">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#ivatanCarousel" data-bs-slide="next" aria-label="Next image">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-4 p-md-0">
+              <p class="mb-3">Among the windswept isles, the Ivatans have learned to live with the sea and sky—building stone homes, weaving vakul headgear, and guiding one another through storms with quiet strength. Their way of life honors the land and the hands that tend it.</p>
+              <p class="mb-3">Resilience, hospitality, and simplicity shape daily rhythms: neighbors help neighbors, doors are open, and time moves at the pace of the tide. Traditions endure not as displays, but as living practices—passed on through stories, craft, and care.</p>
+              <p class="mb-4">Here, beauty is not loud. It is steady, humble, and deeply felt—woven into every path, every stone, every greeting shared along the road.</p>
+              <div class="quote-soft p-4 rounded-4 bg-white">“The Ivatans teach us that simplicity is true wealth.”</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cuisine -->
+    <section id="food" class="py-5 bg-cream">
+      <div class="container">
+        <h2 class="section-title text-center text-brown mb-4">Flavors of Batanes</h2>
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <div class="card cuisine-card border-0 rounded-4 shadow-sm h-100">
+              <div class="card-body text-center">
+                <div class="cuisine-photo mx-auto mb-3">
+                  <img src="img/uvud balls.jpg" alt="Uvud Balls — sweet coconut treats rolled and fried" class="w-100 h-100">
+                </div>
+                <h5 class="text-green mb-2">Uvud Balls</h5>
+                <p class="mb-0">Sweet coconut treats rolled and fried.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card cuisine-card border-0 rounded-4 shadow-sm h-100">
+              <div class="card-body text-center">
+                <div class="cuisine-photo mx-auto mb-3">
+                  <img src="img/dibang.jpg" alt="Dibang (Flying Fish) — fresh-caught, simply grilled or dried" class="w-100 h-100">
+                </div>
+                <h5 class="text-green mb-2">Dibang (Flying Fish)</h5>
+                <p class="mb-0">Fresh-caught, simply grilled or dried.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card cuisine-card border-0 rounded-4 shadow-sm h-100">
+              <div class="card-body text-center">
+                <div class="cuisine-photo mx-auto mb-3">
+                  <img src="img/vunes.jpg" alt="Vunes (Dried Taro Leaves) — savory, earthy local staple" class="w-100 h-100">
+                </div>
+                <h5 class="text-green mb-2">Vunes (Dried Taro Leaves)</h5>
+                <p class="mb-0">Savory, earthy, local staple.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center mt-3 small text-brown">Optional: Luñis (Ivatan Adobo)</p>
+      </div>
+    </section>
+
+    <!-- Travel Guide -->
+    <section id="tips" class="py-5 bg-sky-gradient">
+      <div class="container">
+        <h2 class="section-title text-center text-brown mb-4">Plan Your Trip</h2>
+        <div class="row g-4 mb-4">
+          <div class="col-12 col-md-4">
+            <div class="info-box p-4 rounded-4 bg-white shadow-sm h-100">
+              <div class="d-flex align-items-start gap-2 mb-2"><span class="fs-4" aria-hidden="true">✈️</span><h5 class="m-0 text-green">How to Get There</h5></div>
+              <p class="mb-0">Regular flights from Manila to Basco (BVT). Book ahead during peak season.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="info-box p-4 rounded-4 bg-white shadow-sm h-100">
+              <div class="d-flex align-items-start gap-2 mb-2"><span class="fs-4" aria-hidden="true">☀️</span><h5 class="m-0 text-green">Best Time to Visit</h5></div>
+              <p class="mb-0">March to June (dry & calm).</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="info-box p-4 rounded-4 bg-white shadow-sm h-100">
+              <div class="d-flex align-items-start gap-2 mb-2"><span class="fs-4" aria-hidden="true">💡</span><h5 class="m-0 text-green">Travel Tips</h5></div>
+              <p class="mb-0">Bring cash, layer clothing, respect local customs, rent motorbike/van for island hopping.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-embed rounded-4 overflow-hidden shadow-sm">
+          <iframe class="map-frame" title="Map of Basco, Batanes" src="https://www.google.com/maps?q=Basco%20Batanes&output=embed" width="100%" height="320" loading="lazy"></iframe>
+        </div>
+        <div class="mt-2 small text-brown" aria-live="polite">
+          Map fallback: Basco, Batanes (20.4486° N, 121.9702° E). Nearest airport: Basco Airport (BVT).
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <section id="contact" class="contact-section text-cream position-relative py-4">
+      <div class="wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#3BA9E0" fill-opacity="0.15" d="M0,64L48,85.3C96,107,192,149,288,138.7C384,128,480,64,576,64C672,64,768,128,864,149.3C960,171,1056,149,1152,128C1248,107,1344,85,1392,74.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"/>
+        </svg>
+      </div>
+      <div class="container py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="mb-2 fw-bold text-uppercase">Contact Us</h2>
+            <p class="mb-4">We’d love to hear from you! Get in touch for inquiries or travel tips.</p>
+            <ul class="list-unstyled mb-3">
+              <li class="mb-2">📍 Batanes, Philippines</li>
+              <li class="mb-2">📧 <a class="link-cream" href="mailto:visitbatanes@gmail.com" target="_blank" rel="noopener">visitbatanes@gmail.com</a></li>
+            </ul>
+            <p class="mb-2 small">🌐 Follow us:</p>
+            <div class="d-flex align-items-center justify-content-center gap-4 mb-4">
+              <a class="social-link" href="https://www.facebook.com/batanestours" target="_blank" rel="noopener" aria-label="Facebook">
+                <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 4.99 3.66 9.13 8.44 9.94v-7.03H7.9v-2.9h2.54V9.41c0-2.5 1.5-3.89 3.79-3.89 1.1 0 2.25.2 2.25.2v2.47h-1.27c-1.25 0-1.64.78-1.64 1.58v1.9h2.79l-.45 2.9h-2.34v7.03C18.34 21.19 22 17.05 22 12.06z"/>
+                </svg>
+                <span class="visually-hidden">Facebook</span>
+              </a>
+              <a class="social-link" href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5zM18 6.9a1.1 1.1 0 1 1-1.1-1.1A1.1 1.1 0 0 1 18 6.9z"/>
+                </svg>
+                <span class="visually-hidden">Instagram</span>
+              </a>
+              <a class="social-link" href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
+                <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.5 7.5a3.5 3.5 0 0 0-2.46-2.48C19.1 4.5 12 4.5 12 4.5s-7.1 0-9.04.52A3.5 3.5 0 0 0 .5 7.5 36.41 36.41 0 0 0 0 12a36.41 36.41 0 0 0 .5 4.5 3.5 3.5 0 0 0 2.46 2.48C4.9 19.5 12 19.5 12 19.5s7.1 0 9.04-.52A3.5 3.5 0 0 0 23.5 16.5 36.41 36.41 0 0 0 24 12a36.41 36.41 0 0 0-.5-4.5zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/>
+                </svg>
+                <span class="visually-hidden">YouTube</span>
+              </a>
+            </div>
+            <hr class="border-soft-white my-3">
+            <p class="mb-1 small">Thank you for discovering Batanes — the Land of True Peace.</p>
+            <div class="small">© 2025 Breathtaking Batanes | Designed by Cheska Sharlene V. Ofrin</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      (function() {
+        const header = document.querySelector('.navbar');
+        const hero = document.getElementById('hero');
+        const toggler = document.querySelector('.navbar-toggler');
+
+        function updateNavState() {
+          const navHeight = header.offsetHeight;
+          const threshold = hero.offsetHeight - navHeight;
+          const scrolled = window.scrollY > Math.max(0, threshold * 0.05);
+          header.classList.toggle('navbar-scrolled', scrolled);
+          header.classList.toggle('nav-transparent', !scrolled);
+        }
+
+        const ro = new ResizeObserver(updateNavState);
+        ro.observe(hero);
+        window.addEventListener('scroll', updateNavState, { passive: true });
+        window.addEventListener('load', updateNavState);
+
+        if (toggler) {
+          toggler.addEventListener('click', function() {
+            const expanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-label', expanded ? 'Open menu' : 'Close menu');
+          });
+        }
+      })();
+
+      (function() {
+        const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const counters = document.querySelectorAll('.counter-value');
+        if (!counters.length) return;
+
+        function setValue(el, value) {
+          const suffix = el.getAttribute('data-suffix') || '';
+          el.textContent = value + suffix;
+        }
+
+        function animateCounter(el) {
+          const target = parseInt(el.getAttribute('data-target') || '0', 10);
+          if (Number.isNaN(target)) return;
+          if (prefersReduced) { setValue(el, target); el.classList.add('revealed'); return; }
+
+          const duration = 1200; // ms
+          const start = performance.now();
+          const startVal = 0;
+          function tick(now) {
+            const elapsed = now - start;
+            const progress = Math.min(1, elapsed / duration);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            const current = Math.floor(startVal + (target - startVal) * eased);
+            setValue(el, current);
+            if (progress < 1) requestAnimationFrame(tick); else setValue(el, target);
+          }
+          requestAnimationFrame(tick);
+          el.classList.add('revealed');
+        }
+
+        const io = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              animateCounter(entry.target);
+              obs.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.3 });
+
+        counters.forEach(el => io.observe(el));
+      })();
+
+      // No contact form in final layout; direct contact info only
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  </html>
+
+
+
